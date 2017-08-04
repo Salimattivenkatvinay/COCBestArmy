@@ -8,8 +8,14 @@
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find"
-        android:layout_centerHorizontal="true"/>
+        android:text="Find" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="begin"
+        android:layout_alignParentRight="true"
+        />
 
     <ImageView
         android:id="@+id/iv"

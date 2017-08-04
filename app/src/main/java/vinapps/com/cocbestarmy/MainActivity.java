@@ -87,7 +87,7 @@ public class MainActivity extends Activity{
 
         img1 = new Mat();
         assetManager = getAssets();
-        istr = assetManager.open("b.jpg");
+        istr = assetManager.open("t.png");
         bitmap = BitmapFactory.decodeStream(istr);
         Utils.bitmapToMat(bitmap, img1);
         Imgproc.cvtColor(img1, img1, Imgproc.COLOR_RGB2GRAY);
@@ -115,7 +115,7 @@ public class MainActivity extends Activity{
 
                 try {
                     img2 = new Mat();
-                    istr = assetManager.open("t.png");
+                    istr = assetManager.open("b.jpg");
                     bitmap = BitmapFactory.decodeStream(istr);
                     Utils.bitmapToMat(bitmap, img2);
                     Imgproc.cvtColor(img2, img2, Imgproc.COLOR_RGB2GRAY);
